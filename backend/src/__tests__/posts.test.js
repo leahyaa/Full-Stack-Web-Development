@@ -10,6 +10,7 @@ import {
   deletePost,
 } from '../services/posts.js'
 import { Post } from '../db/models/post.js'
+
 const samplePosts = [
   { title: 'Learning Redux', author: 'Daniel Bugl', tags: ['redux'] },
   { title: 'Learn React Hooks', author: 'Daniel Bugl', tags: ['react'] },
