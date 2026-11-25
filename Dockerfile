@@ -1,5 +1,6 @@
 FROM node:20 AS build
 ARG VITE_BACKEND_URL=https://opulent-sniffle-9pqq77wv5r52p5wg-3001.app.github.dev/api/v1
+ENV VITE_BACKEND_URL=$VITE_BACKEND_URL
 WORKDIR /build
 COPY package.json .
 COPY package-lock.json .
